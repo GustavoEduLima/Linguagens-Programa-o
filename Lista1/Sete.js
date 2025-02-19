@@ -1,3 +1,6 @@
+// Escreva uma função que receba uma string como argumento e retorne a string invertida.
+
+
 // let frase = window.prompt("Digite uma frase: ");
 // let fraseInvertida = "";
 

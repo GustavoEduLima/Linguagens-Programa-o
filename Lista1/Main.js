@@ -5,9 +5,10 @@ let pessoa =
     profissao : "Desenvolvedor"
 
 }
- console.log(pessoa);
+ 
+console.log(pessoa);
 
- const nome = "Fábio";
+const nome = "Fábio";
 
     
 console.log(nome.charAt(3));
@@ -24,8 +25,8 @@ if (nome.includes("i")) { }
 
 
 
-// let nome = murilo;
-// let idade = 20;
+// let nome = Gustavo;
+// let idade = 19;
 
 // console.log("meu nome e " + nome + " e eu tenho " + idade + " anos");
 
@@ -35,7 +36,7 @@ if (nome.includes("i")) { }
 
 //     return txt;
 // }
-// console.log(minhafunc("Murilo", 20));
+// console.log(minhafunc("Gustavo", 19));
 
 // let myfunction = function(nome){
 //     console.log(Hello);
