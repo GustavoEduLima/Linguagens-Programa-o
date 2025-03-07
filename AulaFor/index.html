@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04</title>
+</head>
+<body>
+    <form action = "https://www.w3schools.com/action_page.php">
+        
+        <input type="date">
+
+        <hr>
+
+        <h1>Acesso</h1>
+        
+        <form action="/action_page.php">
+        <label for="nome">Usuário: </label><br>
+        <input type="email" id="pnome" name="pnome"><br>
+        <label for="sobrenome">Senha:</label><br>
+        <input type="password" id="senha" name="senha">
+        <input type="button" value="Acessar" onclick="alert('Logado com sucesso!!')">
+
+        <hr>
+
+        <h1>Dados Pessoais</h1>
+
+        <form action="/action_page.php">
+            <fieldset>
+            <legend>Dados:</legend>
+            <label for="pnome">Nome:</label><br>
+            <input type="text" id="pnome" name="pnome" value = "Santos"><br>
+            
+            <label for="endereco">Endereço:</label><br>
+            <input type="text" id="endereco" name="endereco" value="Vila Belmiro"><br>
+            
+            <label for = "numero">Número: </label><br>
+            <input type="number" id="numero" name="numero" value="1916"><br>
+            
+            <label for="complemento">Complemento:</label><br>
+            <input type="text" id="complemento" name="complemento" value="Edificil viu"><br>
+            
+            <label for="cidade">Cidade:</label><br>
+            <input list="cidade" name="cidade">
+            <datalist id="cidade">
+                <option value="Sorocaba">
+                <option value="Santos">
+                <option value="São paulo">
+                <option value="Votorantim">
+                <option value="Tatuí">
+            </datalist><br>
+
+            <label for="estados">Estado:</label>
+            <select id="estado" name="estado">
+            <option value="São Paulo">São Paulo</option>
+            </select><br>
+            
+            <label for = "cep">CEP </label><br>
+            <input type="number" id="cep" name="cep"><br>
+
+            <label for="genero">Genero:</label><br>
+                <input type="radio" id="masculino" name="genero" value="masculino" checked>
+                <label for="masculino">Masculino</label><br>
+                <input type="radio" id="feminino" name="genero" value="feminino">
+                <label for="feminino">feminino</label><br>
+                <input type="radio" id="não binario" name="genero" value="não binario">
+                <label for="não binario">não binario</label><br>
+
+
+            <input type="submit" value="Salvar">
+            </fieldset>
+            </form>
+
+            <hr>
+
+      
+            </form>
+
+            <h1>Curso</h1>
+            
+            <input type="checkbox" id="curso1" name="ADS" value="ADS">
+            <label for="ADS">ADS</label><br>
+            <input type="checkbox" id="curso2" name="Gestão de TI" value="GTI">
+            <label for="curso2">Gestão de TI</label><br>
+            <input type="checkbox" id="curso3" name="Jogos" value="Jogos">
+            <label for="curso3">Jogos</label><br>
+            </form>
+
+            <hr>
+            
+            <h1>Modelo</h1>
+
+            <label for="Modalidade">Modalidade:</label><br>
+            <input type="radio" id="Presencial" name="Modalidade" value="Presencial" checked>
+            <label for="Modalidade">Presencial</label><br>
+            <input type="radio" id="Semi-presencial" name="Modalidade" value="Semi-presencial">
+            <label for="Semi-presencial">Semi-presencial</label><br>
+            <input type="radio" id="Ead" name="Modalidade" value="Ead">
+            <label for="Ead">Ead</label>
+
+
+    </form>
+</body>
+</html>
